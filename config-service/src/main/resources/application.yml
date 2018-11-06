@@ -8,5 +8,7 @@ spring:
   cloud:
     config:
       server:
+        git:
+          uri: https://github.com/MMICHIELI/incx.git
         native:
           search-locations: classpath:/config/{profile}
